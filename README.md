@@ -1,4 +1,4 @@
-# KOglossaryLinks jQuery plugin by [@mrmartineau](http://github.com/mrmartineau)
+# KOglossaryLinks jQuery plugin
 
 This is a jQuery plugin that shows glossary-style tooltips when hovered (or tapped on touchscreen devices). You provide a json feed and add data attributes to any HTML element and it will do the rest.
 
