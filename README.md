@@ -44,3 +44,6 @@ The json feed should look like this:
 	}
 ]
 ```
+
+### CSS Styling
+As well as the bundled CSS there is a `.scss` file included which can be edited. If you use Sass, include it in your build and modify the styles.
