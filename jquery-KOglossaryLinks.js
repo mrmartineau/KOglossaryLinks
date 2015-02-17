@@ -1,24 +1,3 @@
-/**
- *   KOglossaryLinks by @mrmartineau *
- *   Loop through elements with .glossaryLink class and use the value to lookup data in a json feed.
- *
- *   Example HTML usage:
-		<a href="" class="glossaryLink" data-koglossarylink='Glossary term'>Glossary term</a>
- *
- *   Example JS usage:
-	 $(document.body).KOglossaryLinks({
-		 sourceURL    : '/js/dist/glossary.json',
-		 element      : '.glossaryLink',
-		 tooltipwidth : 260,
-		 debug        : true
-	 });
-
- *   Default option:
-		 sourceURL    : ''               [string]  - URL of the JSON file with format {"term": "", "description": ""}
-		 tooltipwidth : 260,             [integer] - Width of tooltip. This should correspond to the CSS you are using for the tooltip
-		 debug        : false            [boolean] - Show debug messages in the console
- */
-
 ;(function ($, f) {
 	var KOglossaryLinks = function () {
 
@@ -45,8 +24,7 @@
 				var jsonData = data;
 
 				for (var i = 0; i < jsonData.length; i++) {
-					_.terms[jsonData[i].term.toLowerCase()] = jsonData[i]; // FIXME: toLowerCase
-					// Usage: _.terms[data whatever];
+					_.terms[jsonData[i].term.toLowerCase()] = jsonData[i];
 				}
 				if (_.options.debug) { console.log('All the terms:', _.terms); }
 			});
@@ -180,5 +158,5 @@
 		});
 	};
 
-	KOglossaryLinks.version = "0.3.0";
+	KOglossaryLinks.version = "0.4.0";
 })(jQuery, false);

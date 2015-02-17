@@ -24,19 +24,6 @@ $KOglossaryLink-tooltip-width      : 260px; // This needs to be the same as the
 	.no-js &:hover, .no-js &:focus, .no-js &:active {
 		color: $KOglossaryLink-text-color;
 	}
-
-	&:after {
-		content: '';
-		// position: absolute;
-		// top: 0;
-		// left: 100%;
-		background-repeat: no-repeat;
-		display: inline-block;
-		width: 19px;
-		height: 25px;
-		vertical-align: middle;
-		margin-left: 1px;
-	}
 }
 
 
