@@ -1,5 +1,5 @@
 {
-  "name": "KOglossaryLinks",
+  "name": "koglossarylinks",
   "title": "KOglossaryLinks",
   "description": "KOglossaryLinks is a jQuery plugin that shows glossary-style tooltips when hovered (or tapped on touchscreen devices)",
   "main": "dist/KOglossaryLinks.js",
@@ -37,7 +37,10 @@
     "jquery",
     "JSON",
     "glossary",
-    "CSS"
+    "CSS",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "kickoff"
   ],
   "dependencies": {},
   "license": "MIT"

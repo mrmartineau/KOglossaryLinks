@@ -1,5 +1,5 @@
 /**
- * KOglossaryLinks - KOglossaryLinks is a jQuery plugin that shows glossary-style tooltips when hovered (or tapped on touchscreen devices)
+ * koglossarylinks - KOglossaryLinks is a jQuery plugin that shows glossary-style tooltips when hovered (or tapped on touchscreen devices)
  * @version v0.4.0
  * @link https://github.com/mrmartineau/KOglossaryLinks
  * @license MIT

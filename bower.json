@@ -1,0 +1,31 @@
+{
+  "name": "KOglossaryLinks",
+  "version": "0.4.0",
+  "homepage": "https://github.com/mrmartineau/KOglossaryLinks",
+  "authors": [
+    "Zander Martineau <zander@martineau.tv>"
+  ],
+  "description": "KOglossaryLinks is a jQuery plugin that shows glossary-style tooltips when hovered (or tapped on touchscreen devices)",
+  "main": "dist/KOglossaryLinks.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "slider",
+    "koslider",
+    "kickoff"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

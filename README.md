@@ -6,6 +6,24 @@ The plugin handles different screen dimensions with ease; it repositions the too
 
 A slightly older version of this plugin was used on http://www.goenergyshopping.co.uk/en-gb/why-shop
 
+## Getting the Library
+### Direct downloads
+- [Minified](https://raw.githubusercontent.com/mrmartineau/KOglossaryLinks/master/dist/jquery-KOglossaryLinks.min.js) (1.31 kB gzipped)
+- [Unminified](https://raw.githubusercontent.com/mrmartineau/KOglossaryLinks/master/dist/jquery-KOglossaryLinks.js) (5.15 kB gzipped)
+
+### Bower
+`bower install KOglossaryLinks`
+
+### NPM
+`npm install koglossarylinks --save`
+
+## Usage
+Include **KOglossaryLinks** in your JavaScript bundle or add it to your HTML page like this:
+
+```html
+<script type='application/javascript' src='/path/to/KOglossaryLinks.js'></script>
+```
+
 ### Example HTML usage:
 ```html
 <a href="" data-koglossarylink='Glossary term'>Glossary term</a>
